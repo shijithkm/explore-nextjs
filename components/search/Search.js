@@ -18,7 +18,7 @@ function Search() {
         <span className="text-sm text-center block p-4 text-zinc-400">
           Showing results for
         </span>
-        <div class="flex">
+        <div className="flex">
           <input
             type="text"
             id="voice-search"
