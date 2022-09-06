@@ -37,22 +37,22 @@ function Header() {
         }
       >
         <li className="m-4">
-          <Link href="/home">
+          <Link href="/">
             <a className="text-xl hover:text-cyan-500 duration-500">Home</a>
           </Link>
         </li>
         <li className="m-4">
-          <Link href="/home">
+          <Link href="/">
             <a className="text-xl hover:text-cyan-500 duration-500">Services</a>
           </Link>
         </li>
         <li className="m-4">
-          <Link href="/home">
+          <Link href="/">
             <a className="text-xl hover:text-cyan-500 duration-500">Projects</a>
           </Link>
         </li>
         <li className="m-4">
-          <Link href="/home">
+          <Link href="/">
             <a className="text-xl hover:text-cyan-500 duration-500">
               For Professionals
             </a>
@@ -60,7 +60,7 @@ function Header() {
         </li>
       </ul>
       <div>
-        <Link href="/home">
+        <Link href="/">
           <a
             className={
               menu == "MenuIcon"
