@@ -1,7 +1,7 @@
 import Image from "next/image";
 import CloseIcon from "../../public/icons/close.svg";
 import { useState, useCallback } from "react";
-import SearchResults from "./SearchResults";
+import SearchResults from "./SearchResultsList";
 
 function Search() {
   const [query, setQuery] = useState("");
